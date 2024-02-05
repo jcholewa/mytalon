@@ -1,5 +1,5 @@
 slack lunch:
-  # user.switcher_launch('slack')
+  user.switcher_focus("Slack")
   key(cmd-shift-y)
   sleep(100ms)
   key(tab)
@@ -14,6 +14,7 @@ slack lunch:
   key(enter)
 
 slack clear status:
+  user.switcher_focus("Slack")
   key(cmd-shift-y)
   sleep(100ms)
   key(tab)
