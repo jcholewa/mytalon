@@ -12,8 +12,13 @@ code (call | cool):
   insert('();')
 
 code block:
-  key(right:5)
+  key(right:2)
   insert(' {};')
+  key(left:2)
+  key(enter)
+
+code block all:
+  insert('() {};')
   key(left:2)
   key(enter)
 
