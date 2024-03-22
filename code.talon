@@ -22,6 +22,12 @@ code block all:
   key(left:2)
   key(enter)
 
+code class:
+  insert('class  {}')
+  key(left)
+  key(enter)
+  key(left:4)
+
 code export:
   insert('export const ')
 
