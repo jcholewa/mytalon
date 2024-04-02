@@ -5,6 +5,6 @@ git message:
   insert('git commit -m ""')
   key(left)
 
-git message ticket:
-  insert('git commit -m "CRUI-"')
+git message <user.number_string>:
+  insert('git commit -m "CRUI-{number_string} - "')
   key(left)
