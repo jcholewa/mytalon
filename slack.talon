@@ -35,7 +35,39 @@ slack focus:
   key(enter:2)
   key(tab:3)
   key(enter)
-  
+
+slack lion:
+  user.switcher_focus("Slack")
+  key(cmd-shift-y)
+  sleep(100ms)
+  key(shift-tab)
+  key(enter)
+  sleep(100ms)
+  insert("lion_face")
+  sleep(300ms)
+  key(tab)
+  key(enter)
+  key(tab:3)
+  key(enter:2)
+  key(tab:3)
+  key(enter)
+    
+slack zazu:
+  user.switcher_focus("Slack")
+  key(cmd-shift-y)
+  sleep(100ms)
+  key(shift-tab)
+  key(enter)
+  sleep(100ms)
+  insert("zazu")
+  sleep(300ms)
+  key(tab)
+  key(enter)
+  key(tab:3)
+  key(enter:2)
+  key(tab:3)
+  key(enter)
+
 slack clear status:
   user.switcher_focus("Slack")
   key(cmd-shift-y)
