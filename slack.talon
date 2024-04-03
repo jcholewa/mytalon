@@ -68,6 +68,26 @@ slack zazu:
   key(tab:3)
   key(enter)
 
+slack sick:
+  user.switcher_focus("Slack")
+  key(cmd-shift-y)
+  sleep(100ms)
+  insert("Out sick")
+  sleep(100ms)
+  key(shift-tab)
+  key(enter)
+  sleep(100ms)
+  insert("face_with_thermometer")
+  sleep(300ms)
+  key(tab)
+  key(enter)
+  key(tab:3)
+  key(enter)
+  key(up:4)
+  key(enter)
+  key(tab:2)
+  key(enter)
+
 slack clear status:
   user.switcher_focus("Slack")
   key(cmd-shift-y)
