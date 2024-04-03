@@ -8,6 +8,17 @@ code arrow empty:
   key(left:2)
   key(enter)
 
+# inside command doesn't use ; so you can use it within an existing function
+code arrow inside:
+  insert('() => {}')
+  key(left:7)
+
+# inside command doesn't use ; so you can use it within an existing function
+code arrow empty inside:
+  insert('() => {}')
+  key(left)
+  key(enter)
+
 code (call | cool):
   insert('();')
 
