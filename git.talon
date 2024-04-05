@@ -8,3 +8,7 @@ git message:
 git message <user.number_string>:
   insert('git commit -m "CRUI-{number_string} - "')
   key(left)
+
+lazygit:
+  insert('lazygit')
+  key(enter)
