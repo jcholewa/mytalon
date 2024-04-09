@@ -1,3 +1,10 @@
+slack unread:
+  key(cmd-shift-a)
+
+slack threads:
+  key(cmd-shift-t)
+
+# Slack status changes
 slack lunch:
   user.switcher_focus("Slack")
   key(cmd-shift-y)
