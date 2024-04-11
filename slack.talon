@@ -1,3 +1,9 @@
+slack back:
+  key(cmd-[)
+
+slack forward:
+  key(cmd-])
+
 slack unread:
   key(cmd-shift-a)
 
