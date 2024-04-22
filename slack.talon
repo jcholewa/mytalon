@@ -1,3 +1,6 @@
+slack help:
+  key(cmd-/)
+
 slack back:
   key(cmd-[)
 
