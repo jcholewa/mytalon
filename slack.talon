@@ -3,6 +3,11 @@ app: slack
 slack help:
   key(cmd-/)
 
+# Press the unmute key and disable Talon in a Slack huddle
+unmute:
+  key(cmd-shift-space)
+  speech.disable()
+
 # Slack status changes
 slack lunch:
   user.switcher_focus("Slack")
