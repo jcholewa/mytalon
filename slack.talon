@@ -1,17 +1,7 @@
+app: slack
+-
 slack help:
   key(cmd-/)
-
-slack back:
-  key(cmd-[)
-
-slack forward:
-  key(cmd-])
-
-slack unread:
-  key(cmd-shift-a)
-
-slack threads:
-  key(cmd-shift-t)
 
 # Slack status changes
 slack lunch:
