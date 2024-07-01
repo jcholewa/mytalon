@@ -3,21 +3,27 @@ app: slack
 slack help:
   key(cmd-/)
 
+# Search for channels, people etc
+slack hunt:
+  key(cmd-t)
+
+slack search:
+  key(cmd-g)
+
 # Press the unmute key and disable Talon in a Slack huddle
 unmute:
   key(cmd-shift-space)
   speech.disable()
 
-# Slack status changes
+# Slack status changes - these are quite flaky
 slack lunch:
-  user.switcher_focus("Slack")
   key(cmd-shift-y)
   sleep(100ms)
   insert("On lunch")
   sleep(100ms)
   key(shift-tab)
   key(enter)
-  sleep(100ms)
+  sleep(200ms)
   insert("fork_and_knife")
   sleep(300ms)
   key(tab)
@@ -30,14 +36,13 @@ slack lunch:
   key(enter)
 
 slack focus:
-  user.switcher_focus("Slack")
   key(cmd-shift-y)
   sleep(100ms)
   insert("Focus time")
   sleep(100ms)
   key(shift-tab)
   key(enter)
-  sleep(100ms)
+  sleep(200ms)
   insert("do_not_disturb")
   sleep(300ms)
   key(tab)
@@ -48,12 +53,11 @@ slack focus:
   key(enter)
 
 slack lion:
-  user.switcher_focus("Slack")
   key(cmd-shift-y)
   sleep(100ms)
   key(shift-tab)
   key(enter)
-  sleep(100ms)
+  sleep(200ms)
   insert("lion_face")
   sleep(300ms)
   key(tab)
@@ -64,12 +68,11 @@ slack lion:
   key(enter)
     
 slack zazu:
-  user.switcher_focus("Slack")
   key(cmd-shift-y)
   sleep(100ms)
   key(shift-tab)
   key(enter)
-  sleep(100ms)
+  sleep(200ms)
   insert("zazu")
   sleep(300ms)
   key(tab)
@@ -80,14 +83,13 @@ slack zazu:
   key(enter)
 
 slack sick:
-  user.switcher_focus("Slack")
   key(cmd-shift-y)
   sleep(100ms)
   insert("Out sick")
   sleep(100ms)
   key(shift-tab)
   key(enter)
-  sleep(100ms)
+  sleep(200ms)
   insert("face_with_thermometer")
   sleep(300ms)
   key(tab)
@@ -100,7 +102,6 @@ slack sick:
   key(enter)
 
 slack clear status:
-  user.switcher_focus("Slack")
   key(cmd-shift-y)
   sleep(100ms)
   key(tab:3)
