@@ -18,7 +18,7 @@ unmute:
 # Slack status changes - these are quite flaky
 slack lunch:
   key(cmd-shift-y)
-  sleep(100ms)
+  sleep(200ms)
   insert("On lunch")
   sleep(100ms)
   key(shift-tab)
@@ -37,7 +37,7 @@ slack lunch:
 
 slack focus:
   key(cmd-shift-y)
-  sleep(100ms)
+  sleep(200ms)
   insert("Focus time")
   sleep(100ms)
   key(shift-tab)
@@ -54,7 +54,7 @@ slack focus:
 
 slack lion:
   key(cmd-shift-y)
-  sleep(100ms)
+  sleep(200ms)
   key(shift-tab)
   key(enter)
   sleep(200ms)
@@ -69,7 +69,7 @@ slack lion:
     
 slack zazu:
   key(cmd-shift-y)
-  sleep(100ms)
+  sleep(200ms)
   key(shift-tab)
   key(enter)
   sleep(200ms)
@@ -84,7 +84,7 @@ slack zazu:
 
 slack sick:
   key(cmd-shift-y)
-  sleep(100ms)
+  sleep(200ms)
   insert("Out sick")
   sleep(100ms)
   key(shift-tab)
@@ -103,6 +103,6 @@ slack sick:
 
 slack clear status:
   key(cmd-shift-y)
-  sleep(100ms)
+  sleep(200ms)
   key(tab:3)
   key(enter)
